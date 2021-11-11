@@ -1,0 +1,19 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-shell-bat-builder",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Target path: ",
+      "name": "RIT_TARGET",
+      "required": true,
+      "tutorial": "target to generate test file",
+      "type": "text"
+    }
+  ],
+  "template": "shell-bat",
+  "templateRelease": "1.1.1"
+}
